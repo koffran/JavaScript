@@ -1,0 +1,28 @@
+//EJERCICIO 1
+
+var firstName = prompt('Cargar nombre');
+var lastName = prompt('Cargar apellido');
+var saludo = 'Hola ' + firstName + ' ' + lastName +'!';
+
+console.log(saludo);
+
+//EJERCICIO 2
+
+var firstNumber;
+var firstNumberAsString = prompt('Ingrese un número');
+var secondNumber = 10;
+
+firstNumber = parseInt(firstNumberAsString);
+
+var result = firstNumber + secondNumber;
+
+console.log(result);
+
+//EJERCICIO 3
+
+var firstText = prompt('Ingrese el primer texto');
+var secondText = prompt('Ingrese el segundo texto');
+
+var finalText = firstText + secondText;
+
+alert(finalText);
