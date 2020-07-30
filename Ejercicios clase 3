@@ -1,0 +1,33 @@
+//EJERCICIO 1
+var number = parseInt(prompt("Ingrese un número: "));
+if (number >1000)
+  {
+    alert("Se intrujo un número mayor a 1000");
+  }
+else if(number === 1000)
+  {
+    alert("Se introdujo el número 1000");
+  }
+else
+  {
+    alert("Se intrujo un número menor a 1000");
+  }
+  
+  //EJERCICIO 2
+var texto = prompt("Intrese un texto: ");
+
+if(texto === "Hola")
+  {
+    alert("Introdujo la palabra Hola");
+  }
+  
+  // EJERCICIO 3
+
+
+var number = parseInt( prompt("Ingrese un número entre 10 y 50: "));
+
+if(number <=50 && number >=10)
+  {
+    alert("Ingresó un número mayor a 10 y menor a 50")
+  }
+
