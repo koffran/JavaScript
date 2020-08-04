@@ -1,0 +1,16 @@
+var dias = ['Domingo', 'Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
+
+console.log('Dias pares: ');
+
+for(let i=0; i< dias.length; i++)
+  {
+    if(i === 6) // SEGUNDO EJERCICIO
+      {
+        alert('Es el septimo dia');
+      }
+    
+    if(i %2 === 0) //PRIMER EJERCICIO
+      {
+        console.log(dias[i]);
+      }
+  }
