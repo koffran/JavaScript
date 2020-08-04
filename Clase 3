@@ -1,0 +1,43 @@
+function greeting(i, j )
+{
+  console.log('Hola mundo' +' ' + i + j );
+}
+
+greeting(131, 'holagola');
+
+/*var resultado = 0;
+var numero = 10;
+var i = 0;
+
+while(i <= numero)
+  {
+    resultado +=i;
+    i++;
+    console.log(resultado);
+  }*/
+
+/*var interval = setInterval(()=>{
+	console.log('a');
+}, 1000);
+
+setTimeout(function(){
+	clearInterval(interval);
+}, 3000);*/
+
+
+/*var nDay =0;
+
+switch(nDay)
+  {
+    case 0:
+      console.log('Domingo');
+      break;
+    case 1:
+      console.log('Lunes');
+      break;
+    case 2:
+      console.log('Martes');
+      break;
+    default:
+      console.log('-');
+  }*/
