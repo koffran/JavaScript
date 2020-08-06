@@ -1,0 +1,27 @@
+//  var numA = num1 || 0; // Para asegurarnos que num1 este venga cargado dentro de una funcion, siendo num1 un parametro
+
+/*function sumNumbers1(num1, num2, num3=0) // Podemos predefinir valores a los parametros
+{
+  let result = num1 + num2 + num3;  
+  console.log(result);
+}
+*/
+
+/*LET PARA VER SCOPES
+
+let globalVar = 'Global';
+
+function fcn()
+{
+  let localVar = 'local';
+  console.log( localVar);
+}
+
+function fcn2()
+{
+  let localVar = 'local 2';
+  console.log( localVar);
+}
+
+fcn();
+fcn2();*/
