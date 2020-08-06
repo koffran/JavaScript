@@ -1,0 +1,10 @@
+function calcProm(num1, num2)
+{
+  return (num1 + num2) / arguments.length;
+}
+
+let userNumber1 = parseInt(prompt('num1'));
+let userNumber2 = parseInt(prompt('num2'));
+let promedio = calcProm(userNumber1, userNumber2);
+
+console.log(`El promedio de ${userNumber1} y ${userNumber2} es ${promedio}`);
