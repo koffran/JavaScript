@@ -45,3 +45,51 @@ let Persona = function(firstName, lastname, date) {
 }
 let persona = new Persona('Jose', 'San Martín', '1740-03-25');
 console.log(persona.getAge());*/
+
+
+/*let Usuario = function(id, nombre, apellido, score)
+{
+  this.id = id;
+  this.nombre = nombre;
+  this.apellido = apellido;
+  this.score = score;
+  
+  this.getScore = function()
+  {
+    return score;
+  }
+  
+  this.getFullName = function(){
+    
+  }
+}
+
+let Game = function(id)
+{
+  this.id = id;
+  this.score = 0;
+  this.sumScore= function(newValue)
+  {
+    this.score = this.score + newValue;
+  }
+  
+  this.getScore = function()
+  {
+    return this.score;
+  }
+  
+  this.saveGame = function()
+  {
+    //Guardar puntaje en DB
+  }
+}
+
+let user = new Usuario(34523, 'Jugador', '2', 100);
+
+let fullName = user.getFullName();
+
+let game = new Game(user.id);
+
+game.sumScore(50);
+game.saveGame();
+*/
