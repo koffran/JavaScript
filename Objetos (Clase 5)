@@ -1,0 +1,26 @@
+/*let Persona = function(fName, lName){ //Creo el objeto
+  this.firstName = fName; //Atributo publico
+  this.lastName = lName;
+  let edad = 25; //Atributo privado
+  
+  this.getFullName = function() //Metodo
+  {
+    return `${this.firstName} ${this.lastName}`;
+  }
+  
+  this.getEdad = function()
+  {
+    return edad;
+  }
+
+}
+
+let persona1 = new Persona('Franco', 'Cordoba'); //Creo la instancia del objeto
+let persona1FullName = persona1.getFullName(); //Accedo al metodo
+let persona1Edad = persona1.getEdad(); //Accedo al metodo que me devuelve un atributo privado
+
+console.log(persona1FullName); //Imprimo a traves de metodo
+
+console.log(persona1Edad);
+
+console.log(persona1.firstName); //Imprimo directamente un atributo publico */
