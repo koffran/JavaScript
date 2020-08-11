@@ -24,3 +24,24 @@ console.log(persona1FullName); //Imprimo a traves de metodo
 console.log(persona1Edad);
 
 console.log(persona1.firstName); //Imprimo directamente un atributo publico */
+
+
+/* CODIGO DEWL PROF
+let Persona = function(firstName, lastname, date) {
+  this.firstName = firstName;
+  this.lastname = lastname;
+  this.date = date;
+  this.getFullName = function () {
+    return `${this.firstName} ${this.lastname}`
+  }
+  let calculateAge1 = () => {
+    let ageDifMs = Date.now() - new Date(this.date);
+    let ageDate = new Date(ageDifMs);
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  }
+  this.getAge = function () {
+    return calculateAge();
+  }
+}
+let persona = new Persona('Jose', 'San Martín', '1740-03-25');
+console.log(persona.getAge());*/
