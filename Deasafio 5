@@ -1,0 +1,17 @@
+let PC = function (mark, tipo)
+{
+  this.marca = mark;
+  this.tipo = tipo;
+  
+  let serial = "JB12345678";
+  
+  this.getDatosPC = function()
+  {
+    return `${this.marca} ${this.tipo}`;
+  }
+  
+}
+
+let pc = new PC("HP", "notebook");
+
+console.log(pc.getDatosPC());
