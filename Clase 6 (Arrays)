@@ -1,0 +1,87 @@
+//              FOREACH
+/*let productos = ['Hamburguesa', 'Pizza', 'Gaseosa', 'Postre'];
+let pedidos = [];
+
+
+console.log('Mis productos');
+productos.forEach((producto, index)=> { // EL SEGUNDO ARGUMENTO ES EL INDICE
+  console.log(`${index + 1} - ${producto}`);  
+});
+
+
+pedidos.push(productos[1]);
+pedidos.push(productos[0]);
+pedidos.push(productos[2]);
+
+
+console.log('Mis pedidos');
+pedidos.forEach((pedido)=> {
+  console.log(pedido);  
+});
+
+pedidos.splice(2,1); //PARA BORRAR, PRIMERO LA POSICION DESDE LA CUAL ELLIMINAMOS, EL SEGUNDO LA CANTIDAD A ELIMINAR
+
+console.log(pedidos);
+console.log(pedidos.join('-')); // me convierte el array en una string y separa los items con lo que ponga entre comillas*/
+
+/*let miArray = ["ford", 45];
+let otroArray = ["hola", 22, "mundo"];
+
+var nuevoArray = miArray.concat(otroArray);
+console.log(nuevoArray);*/
+
+
+/*let usuario = prompt('Ingrese un nombre de usuario ');
+let cleanUsuario = usuario.trim();
+
+console.log(usuario);
+console.log(cleanUsuario);
+
+cleanUsuario = cleanUsuario.toLowerCase();
+console.log(cleanUsuario);
+var lengthUsuario = cleanUsuario.length;
+console.log(lengthUsuario);*/
+
+/*let email = prompt('Ingrese un email');
+let cleanEmail = email.trim();
+console.log(cleanEmail);
+let userDomain = cleanEmail.split('@');
+console.log(userDomain);
+let domain = userDomain[1];
+console.log(domain);
+
+let isEmail = cleanEmail.indexOf('@');
+console.log(isEmail);
+
+let newEmail = cleanEmail.replace('gmail.com','hotmail.com');
+console.log(newEmail);*/
+
+/*let Validator = function(_user, _email)
+{
+  const MINLENGTH = 5;
+  let user = cleanString(trimValue(_user));
+  let email = cleanString(trimValue(_email));
+  
+  this.getUser = () => user;
+  this.getEmail = () => email;
+  this.isLengthValidate = () => (user.length > MINLENGTH);
+  this.getEmailDomain = () => email.split('@')[1];
+  
+  function cleanString(value)
+  {
+    return value.replace(new RegExp(' ','g'),''); //Expresion regular para qutar TODOS los espacios
+  }
+  
+  function trimValue(value)
+  {
+    return value.trim();
+  }
+}
+
+let validateData = new Validator(' UsuarIo ', 'em ai  l@ gmail.com');
+
+console.log(validateData.getUser());
+console.log(validateData.getEmail());
+console.log(validateData.isLengthValidate());
+
+console.log(typeof(validateData));*/
