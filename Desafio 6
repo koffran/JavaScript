@@ -1,0 +1,9 @@
+function concatNumber(num1, num2)
+{
+  return num1.concat(num2);
+}
+
+let userNumber1 = [0, 1, 2];
+let userNumber2 = [3, 4, 5];
+
+console.log(concatNumber(userNumber1, userNumber2));
