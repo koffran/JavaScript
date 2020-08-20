@@ -49,6 +49,16 @@
       });
 
       titleContainer.textContent = msg;
+      
+      //----------Agregar items a la lista por JS
+      let menuContainer = document.getElementById("menu-container");
+      let menu = [ "Hamburguesa", "Pizza", "Empanadas", "Pollo"];
+
+      menu.forEach((menuItem) => {
+        let item = document.createElement("li");
+        item.textContent = menuItem;
+        menuContainer.appendChild(item);
+      });
 
       /* Soolo para probar como cambiar texto por clases
       let primerMensaje = document.querySelector(".content");
