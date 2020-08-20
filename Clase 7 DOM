@@ -1,0 +1,64 @@
+//console.log(document.getElementsByClassName("content"));
+    //console.log(document.getElementById("title").textContent);
+    //console.log(document.querySelector("#title")); //# para Id - . para clase
+    //console.log(document.querySelectorAll(".content"));
+    
+
+/*
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+      <div>
+        <h2 id="title">Hola mundo</h2>
+        <p class ="content">Texto primero para probar</p>
+      </div>
+      <div>
+        <h3>Seleccione su menu </h3>
+          <p class ="content">Texto segundo para probar</p>
+          <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+          </ul>
+
+      </div>
+  </body>
+  <script>
+      let date = new Date();
+      let currentHour = date.getHours();
+      let titleContainer = document.getElementById("title");
+      let hours =
+      [
+        [6, 12, "Hora del desayuno"],
+        [12, 15, "Hora del almuerzo"],
+        [15, 20, "Hora de la merienda"],
+        [20, 23, "Hora de la cena"]
+      ];
+
+      let msg = "cerrado";
+
+      hours.forEach((hour) => {
+        if (currentHour >= hour[0] && currentHour < hour[1]) {
+          msg = hour[2];
+        }
+      });
+
+      titleContainer.textContent = msg;
+
+      /* Soolo para probar como cambiar texto por clases
+      let primerMensaje = document.querySelector(".content");
+      let segundoMensaje = document.getElementsByClassName("content");
+      primerMensaje.textContent = "Primer cambio";
+      segundoMensaje[1].textContent = "Segundo cambio";
+      console.log(primerMensaje.textContent);
+      console.log(segundoMensaje[1].textContent);
+      */
+
+  </script>
+</html>
+*/
