@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src ="http://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div id="containerId">Hola mundo</div>
+    <script>
+    /*window.addEventListener("load", function(){
+    console.log("load");
+  });*/
+      $("document").ready(()=>{
+        const containerId = document.getElementById("containerId");
+        console.log(containerId.textContent);
+
+        const $containerId= $('#containerId');
+        $containerId.text("----");
+        console.log($containerId.text());
+
+      });
+      </script>
+  </body>
+</html>
